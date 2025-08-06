@@ -22,12 +22,14 @@ struct ContentView: View {
                     Image("tennis")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fill)
+                        .frame(width: 150.0, height: 150.0)
                         
                         
                     
                     Image("climbing")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fill)
+                        .frame(width: 150.0, height: 150.0)
                         
                 }
 
